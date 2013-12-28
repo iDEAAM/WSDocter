@@ -8,9 +8,9 @@
 require '/class/Smarty.class.php';
 $smarty = new Smarty;
 $smarty->assign("Name", "Registration");
-$smarty->assign("Username", "ÓÃ»§Ãû");
-$smarty->assign("Email", "ÓÊÏä");
-$smarty->assign("Password", "ÃÜÂë");
-$smarty->assign("Okay", "Ìá½»");
+$smarty->assign("Username", "ç”¨æˆ·å");
+$smarty->assign("Email", "é‚®ç®±");
+$smarty->assign("Password", "å¯†ç ");
+$smarty->assign("Okay", "æäº¤");
 $smarty->display("templates/registration.tpl");
 ?>
